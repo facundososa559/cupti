@@ -25,7 +25,7 @@ function NavBar() {
       <div className='navbar-container container--between'>
         <img src={scrolled ? logoBlue : logoWhite} alt="logo" className="navbar-logo" />
         <img src={scrolled ? menuBlue : menuWhite} alt="menu" className='navbar-menu'/>
-        <ul className='navbar-links-container'>
+        <ul className='navbar-links-container container--center'>
           <li><Link to="/" className='navbar-links'>Inicio</Link></li>
           <li><Link to="/" className='navbar-links'>Servicios</Link></li>
           <li><Link to="/" className='navbar-links'>Proyectos</Link></li>
