@@ -39,7 +39,7 @@ function Home() {
           <div className='experience container--center'>
             <AnimatedCounter endValue={10} label="Años de experiencia" />
             <AnimatedCounter endValue={100} label="Proyectos terminados" />
-            <AnimatedCounter endValue={135000} label="ahorrados en todo el país" />
+            <AnimatedCounter endValue={135000} label="Kw ahorrados en todo el país" />
           </div>
         </section>
 
