@@ -1,0 +1,11 @@
+:root {
+    --white: #F8F9FA;
+    --blue: #003D6A;
+    --lighter-blue: #164C75;
+    --green: #009752;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--blue);
+}

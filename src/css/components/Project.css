@@ -1,0 +1,28 @@
+.project {
+    border-bottom: solid 0.5px var(--lighter-blue);
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.project-description {
+    gap: 8px;
+}
+
+.project-icon {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+  
+.project:hover {
+    color: var(--lighter-blue);
+}
+  
+.project:hover .project-icon {
+    transform: translateX(-10px); /* Desplazamiento hacia la derecha */
+  }
+
+.project:active .project-icon {
+    transform: translateX(5px); /* Se mueve hacia adelante */
+    transition: transform 0.1s ease; /* Movimiento rápido */
+}

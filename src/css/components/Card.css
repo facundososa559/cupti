@@ -1,0 +1,50 @@
+.card-container {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card {
+    gap: 8px;
+}
+
+.card-icon {
+    width: 104px;
+    height: 104px;
+}
+
+.card-body {
+    gap: 8px;
+}
+
+.card-text {
+    padding: 8px 0px;
+    width: 80%;
+}
+
+@media screen and (min-width: 475px) {
+    .card {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        max-width: 60%;
+    }
+} 
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-text {
+        width: 70%;
+    }
+
+    .card-container {
+        flex-direction: row;
+        gap: 0px;
+    }
+}
+

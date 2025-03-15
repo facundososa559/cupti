@@ -1,0 +1,53 @@
+.navbar {
+    padding: 16px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.navbar-links-container {
+    gap: 32px;
+    display: none; 
+}
+
+.navbar-links {
+    color: var(--white);
+}
+
+/* Estado sin scroll */
+.navbar:not(.scrolled) {
+    background-color: transparent;
+}
+
+/* Estado con scroll */
+.navbar.scrolled {
+    background-color: var(--white);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+}
+
+/* Cambiar color de los enlaces cuando se hace scroll */
+.navbar.scrolled .navbar-links {
+    color: var(--blue);
+}
+
+/* Ajuste de tamaño del logo */
+.navbar-logo {
+    height: 40px;
+    transition: opacity 0.3s ease;
+}
+
+
+@media screen and (min-width: 768px) {
+    .navbar-container {
+        padding: 0px 32px;
+    }
+
+    .navbar-links-container {
+        display: flex;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+/* Experience */
+.experience {
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 72px;
+}
+
+.counter-container {
+    gap: 32px;
+}
+
+.counter {
+    font-size: 4rem;
+    font-weight: 700;
+}

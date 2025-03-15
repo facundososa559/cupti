@@ -1,0 +1,12 @@
+@import url("./css/abstracts/abstracts.css");
+@import url("./css/components/AnimatedCounter.css");
+@import url("./css/components/DynamicCarousel.css");
+@import url("./css/components/Button.css");
+@import url("./css/components/NavBar.css");
+@import url("./css/components/Card.css");
+@import url("./css/components/Project.css");
+@import url("./css/components/Input.css");
+@import url("./css/components/Form.css");
+@import url("./css/layout/layout.css");
+@import url("./css/reset/reset.css");
+@import url("./css/typography/typography.css");

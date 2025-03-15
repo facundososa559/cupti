@@ -1,0 +1,61 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* ===== FONT SIZE ====== */
+
+.heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+  
+.subheading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.title-small {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+/* ===== FONT WEIGHT ====== */
+
+.medium {
+    font-weight: 500;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* ===== TEXT ALIGN ====== */
+
+.text-center {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: 3rem;
+        line-height: 48px;
+    }
+}
+
+
+  

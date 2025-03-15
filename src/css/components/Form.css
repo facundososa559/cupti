@@ -1,0 +1,11 @@
+.form-container {
+    width: 100%;
+}
+
+.form {
+    gap: 16px;
+}
+
+.form button {
+    width: 60%;
+}
