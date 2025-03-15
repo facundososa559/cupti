@@ -164,14 +164,9 @@
 
 /* ====== MEDIA QUERIES ======= */
 
-@media screen and (min-width: 1024px) {
-    .about {
-        flex-direction: row;
-    }
-
-    .about-image {
-        width: 40%;
-        max-height: none;
+@media screen and (min-width: 475px) {
+    .hero-text-container button {
+        width: 60%;
     }
 }
 
@@ -179,18 +174,33 @@
     .wrapper {
         padding: 64px 32px;
     }
-
+    
     .hero-text-container {
-        width: 60%;
+        width: 80%;
     }
-
+    
     .hero-text-container button {
         width: 50%;
     }
-
+    
     .experience,
     .footer-main,
     .footer-copy {
         flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-text-container {
+        width: 60%;
+    }
+
+    .about {
+        flex-direction: row;
+    }
+
+    .about-image {
+        width: 40%;
+        max-height: none;
     }
 }
