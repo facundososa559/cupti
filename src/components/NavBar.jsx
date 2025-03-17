@@ -40,9 +40,6 @@ function NavBar() {
     }
   };
 
-  console.log(menuOpen);
-  
-
   return (
     <div className={`navbar container--fill ${scrolled || menuOpen ? 'scrolled' : ''}`}>
       <div className='navbar-container container--between'>

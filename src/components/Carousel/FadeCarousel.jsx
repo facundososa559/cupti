@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 
 const FadeCarousel = ({ images, currentIndex, enableZoom, overlay }) => {
+  
   return (
     <AnimatePresence initial={false}>
       {images.length > 0 && images[currentIndex] ? (

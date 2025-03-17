@@ -22,6 +22,11 @@ function CardContainer() {
         title="Diseño industrial"
         content="Contamos con un departamento de diseño industrial, orientado a brindar soluciones integrales con alto grado de ingeniería de detalle."
       />
+      <Card 
+        image={cardNote}
+        title="Diseño industrial"
+        content="Contamos con un departamento de diseño industrial, orientado a brindar soluciones integrales con alto grado de ingeniería de detalle."
+      />
     </div>
   )
 }
