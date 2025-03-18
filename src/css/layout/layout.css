@@ -107,10 +107,6 @@
     gap: 36px;
 }
 
-.about-container button {
-    width: 60%;
-}
-
 .about-image {
     width: 100%;
     max-height: 70vh;
@@ -125,6 +121,17 @@
 /* Opportunities */
 .opportunities {
     gap: 40px;
+}
+
+.opportunities .default-size {
+    min-height: 90vh;
+}
+
+.opportunities .carousel-image {
+    min-height: 60vh;
+
+    object-fit: cover;
+    object-position: top;
 }
 
 /* Projects */
@@ -164,8 +171,12 @@
 
 /* ====== MEDIA QUERIES ======= */
 
-@media screen and (min-width: 475px) {
+@media screen and (min-width: 500px) {
     .hero-text-container button {
+        width: 60%;
+    }
+
+    .about-container button {
         width: 60%;
     }
 }
@@ -187,6 +198,14 @@
     .footer-main,
     .footer-copy {
         flex-direction: row;
+    }
+
+    .opportunities .default-size {
+        height: 40vh;
+    }
+    
+    .opportunities .carousel-image {
+        height: auto;
     }
 }
 
