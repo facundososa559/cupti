@@ -124,12 +124,11 @@
 }
 
 .opportunities .default-size {
-    height: 90vh;
+    height: 20vh;
 }
 
 .opportunities .carousel-image {
-    height: auto;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: top;
 }

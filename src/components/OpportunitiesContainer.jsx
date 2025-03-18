@@ -8,9 +8,9 @@ import desktopImg4 from "../assets/images/opportunities-images/desktop/opportuni
 import desktopImg5 from "../assets/images/opportunities-images/desktop/opportunity-5.jpeg"
 
 /* Mobile images */
-import mobileImg1 from "../assets/images/opportunities-images/mobile/opportunity-1.jpeg"
+/* import mobileImg1 from "../assets/images/opportunities-images/mobile/opportunity-1.jpeg"
 import mobileImg2 from "../assets/images/opportunities-images/mobile/opportunity-2.jpeg"
-import mobileImg3 from "../assets/images/opportunities-images/mobile/opportunity-3.jpeg"
+import mobileImg3 from "../assets/images/opportunities-images/mobile/opportunity-3.jpeg" */
 
 function OpportunitiesContainer() {
   const desktopImages=[
@@ -19,18 +19,12 @@ function OpportunitiesContainer() {
     desktopImg4,
     desktopImg5,
   ]
-
-  const mobileImages = [
-    mobileImg1,
-    mobileImg2,
-    mobileImg3,
-  ]
   
   return (
     <DynamicCarousel 
-        mobileImages={mobileImages} 
+        mobileImages={desktopImages} 
         desktopImages={desktopImages} 
-        adaptiveImages={true}
+        adaptiveImages={false}
         mode="slide" 
         interval={4000} 
         fullScreen={false} 
