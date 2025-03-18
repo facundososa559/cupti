@@ -129,7 +129,6 @@
 
 .opportunities .carousel-image {
     min-height: 60vh;
-
     object-fit: cover;
     object-position: top;
 }
@@ -201,12 +200,14 @@
     }
 
     .opportunities .default-size {
-        height: 40vh;
+        min-height: 40vh;
     }
     
     .opportunities .carousel-image {
-        height: auto;
+        min-height: auto;
     }
+
+    
 }
 
 @media screen and (min-width: 1024px) {
