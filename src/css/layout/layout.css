@@ -205,7 +205,8 @@
     }
 
     .opportunities .default-size {
-        min-height: 40vh;
+        min-height: auto;
+        height: 40vh;
     }
     
     .opportunities .carousel-image {
