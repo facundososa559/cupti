@@ -2,7 +2,6 @@ import React from 'react'
 import DynamicCarousel from './Carousel/DynamicCarousel'
 
 /* Desktop images */
-import desktopImg1 from "../assets/images/opportunities-images/desktop/opportunity-1.png"
 import desktopImg2 from "../assets/images/opportunities-images/desktop/opportunity-2.png"
 import desktopImg3 from "../assets/images/opportunities-images/desktop/opportunity-3.jpeg"
 import desktopImg4 from "../assets/images/opportunities-images/desktop/opportunity-4.jpeg"
@@ -15,7 +14,6 @@ import mobileImg3 from "../assets/images/opportunities-images/mobile/opportunity
 
 function OpportunitiesContainer() {
   const desktopImages=[
-    desktopImg1,
     desktopImg2,
     desktopImg3,
     desktopImg4,

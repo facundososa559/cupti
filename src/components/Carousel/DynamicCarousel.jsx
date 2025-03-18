@@ -26,7 +26,7 @@ const DynamicCarousel = ({
       setViewportWidth(newWidth);
 
       if (adaptiveImages) {
-        setActiveImages(newWidth < 768 ? mobileImages : desktopImages);
+        setActiveImages(newWidth < 500 ? mobileImages : desktopImages);
         setCurrentIndex(0);
       }
     };

@@ -124,11 +124,12 @@
 }
 
 .opportunities .default-size {
-    min-height: 90vh;
+    height: 90vh;
 }
 
 .opportunities .carousel-image {
-    min-height: 60vh;
+    height: auto;
+    max-width: 100%;
     object-fit: cover;
     object-position: top;
 }
@@ -177,6 +178,10 @@
 
     .about-container button {
         width: 60%;
+    }
+
+    .opportunities .default-size {
+        min-height: 60vh;
     }
 }
 
