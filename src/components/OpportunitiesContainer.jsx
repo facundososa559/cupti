@@ -26,7 +26,7 @@ function OpportunitiesContainer() {
         desktopImages={desktopImages} 
         adaptiveImages={false}
         mode="slide" 
-        interval={4000} 
+        interval={5000} 
         fullScreen={false} 
         showControls={false} 
         manualControl={false} 

@@ -27,7 +27,7 @@ function Home() {
           <div className='about container--row'>
             <img className='about-image' src={aboutImage} alt="about-image.svg" />
             <div className='about-container wrapper container--justify-center container--column'>
-              <h4 className='subheading'>Quienes Somos</h4>
+              <h4 className='subheading'>Quienes somos</h4>
               <div className='about-text container--column'>
                 <p>Somos una empresa cooperativa dedicada a brindar servicios y consultoría en variadas áreas de la Ingeniería.</p>
                 <p>CUPTI Ingeniería fue fundada en el año 2013 por seis socios, en aquel entonces estudiantes de Ingeniería de la Universidad de la República.</p>
@@ -39,18 +39,21 @@ function Home() {
           <div className='experience container--center'>
             <AnimatedCounter endValue={10} label="Años de experiencia" />
             <AnimatedCounter endValue={100} label="Proyectos terminados" />
-            <AnimatedCounter endValue={135000} label="Kw ahorrados en todo el país" />
+            <AnimatedCounter endValue={135000} label="Kw/h ahorrados en todo el país" />
           </div>
         </section>
 
 
-        <section className='opportunities container--column container'>
-          <h4 className='title text-center'>Oportunidades para empresas</h4>
+        <section className='opportunities container--column container--center container'>
+          <h4 className='opportunities-title title text-center'>Aprovechá las oportunidades para empresas que ofrecen distinitos organismos del Estado.</h4>
           <OpportunitiesContainer />
+          <div className='container--center'>
+            <Button content={"Más información"}/>
+          </div>
         </section>
 
         <section className='projects container'>
-          <h4 className='title text-center'>Proyectos Destacados</h4>
+          <h4 className='title text-center'>Proyectos destacados</h4>
           <div className='projects-container container--column wrapper'>
             <Project 
               title="Aerogenerador Darrieus"
@@ -83,7 +86,7 @@ function Home() {
             <div className='footer-info container--column'>
               <img className='footer-logo' src={logo} alt="cupti-logo.svg" />
               <p>En CUPTI realizamos proyectos a la medida de tus necesidades.</p>
-              <p>Por consultas sobre nuestros servicios, productos o presupuestos no dudes en ponerte en contacto con nosotros a través del formulario, vía mail o por teléfonos.</p>
+              <p>Por consultas sobre nuestros servicios, productos o presupuestos no dudes en ponerte en contacto con nosotros a través del formulario, vía mail o por teléfono.</p>
               <div className='footer-contact'>
                 <span>
                   <img src={null} alt="" />

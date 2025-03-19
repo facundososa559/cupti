@@ -9,7 +9,7 @@ function CardContainer() {
     <div className='card-container container--center wrapper'>
       <Card 
         image={cardPanel}
-        title="Energías Renovables"
+        title="Energías renovables"
         content="Contamos con técnicos dedicados al desarrollo de proyectos e instalación de energía eólica, solar y centrales hidroeléctricas."
       />
       <Card 

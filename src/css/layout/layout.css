@@ -103,8 +103,8 @@
     color: var(--white);
     background-color: var(--lighter-blue);
     background-image: url("../../assets/images/about-images/about-background.svg");
-    background-position: center;
     gap: 36px;
+    background-position: center;
 }
 
 .about-image {
@@ -123,17 +123,26 @@
     gap: 40px;
 }
 
+.opportunities-title {
+    max-width: 90%;
+}
+
 .opportunities .default-size {
     height: 20vh;
 }
 
 .opportunities .carousel-image {
+    height: 20vh;
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: right;
 }
 
 /* Projects */
+.project {
+    gap: 16px;
+}
+
 .projects-container {
     gap: 32px;
 }
@@ -180,8 +189,16 @@
         width: 60%;
     }
 
+    .opportunities-title {
+        max-width: 80%;
+    }
+    
     .opportunities .default-size {
-        min-height: 60vh;
+        height: 30vh;
+    }
+
+    .opportunities .carousel-image {
+        height: auto;
     }
 }
 
@@ -208,13 +225,16 @@
         gap: 32px;
     }
 
+    .opportunities-title {
+        max-width: 70%;
+    }
+
     .opportunities .default-size {
-        min-height: auto;
         height: 40vh;
     }
     
     .opportunities .carousel-image {
-        min-height: auto;
+        height: auto;
     }
 
     
@@ -232,5 +252,9 @@
     .about-image {
         width: 40%;
         max-height: none;
+    }
+
+    .opportunities-title {
+        max-width: 60%;
     }
 }
